@@ -11,6 +11,14 @@
     "raw_responses_dir": "./responses",
     "output": "results-102-190W-n2.json"
   },
+  "model": {
+    "name": "llama3.1:latest",
+    "family": "llama",
+    "path": "llama3.1:latest",
+    "format": "gguf",
+    "parameter_size": "8.0B",
+    "quantization_level": "Q4_K_M"
+  },
   "summary": {
     "iterations": 102,
     "avg_prompt_tps": 4408.499524028384,
