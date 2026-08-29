@@ -20,7 +20,10 @@
     "quantization_level": "Q4_K_M"
   },
   "summary": {
+    "start_wall_time_ns": 1785322380873554745,
+    "start_monotonic_time_ns": 1785322380873554745,
     "iterations": 102,
+    "tdp": 245,
     "avg_prompt_tps": 1790.4826343716938,
     "p50_prompt_tps": 1962.7029475684267,
     "trimmed_avg_prompt_tps": 1792.6883654713895,
