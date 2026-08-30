@@ -28,12 +28,11 @@
     "start_wall_time_ns": 1787932292880255177,
     "start_monotonic_time_ns": 1208816471146448,
     "iterations": 102,
+    "tdp": 205,
     "avg_prompt_tps": 2057.7855596522595,
     "p50_prompt_tps": 2286.396053984883,
-    "trimmed_avg_prompt_tps": 2052.2512768707084,
     "avg_response_tps": 18.627985362387864,
-    "p50_response_tps": 18.085674666995676,
-    "trimmed_avg_response_tps": 18.634716828803022
+    "p50_response_tps": 18.085674666995676
   },
   "metrics": [
     {
