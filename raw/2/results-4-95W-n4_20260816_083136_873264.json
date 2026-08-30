@@ -30,10 +30,8 @@
     "iterations": 102,
     "avg_prompt_tps": 857.9224660637036,
     "p50_prompt_tps": 592.4195329213669,
-    "trimmed_avg_prompt_tps": 844.0136234469128,
     "avg_response_tps": 13.90401537697018,
-    "p50_response_tps": 13.155543991141355,
-    "trimmed_avg_response_tps": 13.748602632243644
+    "p50_response_tps": 13.155543991141355
   },
   "metrics": [
     {

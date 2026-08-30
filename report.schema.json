@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/vorobev-ds/llperf-data/report.schema.json",
+  "title": "llperf-data benchmark report",
+  "description": "LLM inference load-test report (ollama): run config, model info, aggregate summary and per-request metrics.",
+  "type": "object",
+  "required": [
+    "config",
+    "model",
+    "summary",
+    "metrics"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "config": {
+      "$ref": "#/$defs/config"
+    },
+    "model": {
+      "$ref": "#/$defs/modelInfo"
+    },
+    "summary": {
+      "$ref": "#/$defs/summary"
+    },
+    "metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/requestMetrics"
+      }
+    }
+  },
+  "$defs": {
+    "config": {
+      "type": "object",
+      "required": [
+        "provider",
+        "model",
+        "base_url",
+        "max_tokens",
+        "iterations",
+        "stream",
+        "parallel_size",
+        "prompt_file",
+        "output"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "const": "ollama"
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Ollama model name, e.g. llama3.1:8b-instruct-q8_0"
+        },
+        "base_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "max_tokens": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "iterations": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "stream": {
+          "type": "boolean"
+        },
+        "parallel_size": {
+          "description": "List of all parallel degrees in the benchmark series, or a scalar for a single run",
+          "type": [
+            "integer",
+            "array"
+          ],
+          "minimum": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "prompt_file": {
+          "type": "string"
+        },
+        "raw_responses_dir": {
+          "type": "string"
+        },
+        "output": {
+          "type": "string"
+        }
+      }
+    },
+    "modelInfo": {
+      "type": "object",
+      "required": [
+        "name",
+        "family",
+        "path",
+        "format",
+        "parameter_size",
+        "quantization_level"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "format": {
+          "enum": [
+            "gguf"
+          ]
+        },
+        "parameter_size": {
+          "type": "string",
+          "pattern": "^[0-9.]+B$"
+        },
+        "quantization_level": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_]+$"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "iterations",
+        "avg_prompt_tps",
+        "avg_response_tps"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "start_wall_time_ns": {
+          "$ref": "#/$defs/timestampNs"
+        },
+        "start_monotonic_time_ns": {
+          "$ref": "#/$defs/timestampNs"
+        },
+        "iterations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "tdp": {
+          "description": "Power limit (watts) applied for this run",
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 50,
+          "maximum": 400
+        },
+        "gpus": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/gpuId"
+          }
+        },
+        "avg_prompt_tps": {
+          "$ref": "#/$defs/tps"
+        },
+        "p50_prompt_tps": {
+          "$ref": "#/$defs/tps"
+        },
+        "avg_response_tps": {
+          "$ref": "#/$defs/tps"
+        },
+        "p50_response_tps": {
+          "$ref": "#/$defs/tps"
+        }
+      }
+    },
+    "requestMetrics": {
+      "type": "object",
+      "required": [
+        "request_start_time_ns",
+        "request_end_time_ns",
+        "request_ttft_ns",
+        "prompt_length",
+        "prompt_processing_time_ns",
+        "response_length",
+        "response_generating_time_ns",
+        "load_model_time_ns",
+        "provider_total_time_ns"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "request_start_time_ns": {
+          "description": "Monotonic clock nanoseconds, see summary.start_monotonic_time_ns for the run start anchor",
+          "$ref": "#/$defs/timestampNs"
+        },
+        "request_end_time_ns": {
+          "$ref": "#/$defs/timestampNs"
+        },
+        "request_ttft_ns": {
+          "description": "Only populated when stream=true",
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "prompt_length": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "prompt_processing_time_ns": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "response_length": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "response_generating_time_ns": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "load_model_time_ns": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "provider_total_time_ns": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "gpuId": {
+      "type": "object",
+      "required": [
+        "vendor_id",
+        "product_id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "vendor_id": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{4}$"
+        },
+        "product_id": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{4}$"
+        },
+        "subsystem_vendor_id": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{4}$"
+        },
+        "subsystem_product_id": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{4}$"
+        }
+      }
+    },
+    "timestampNs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "tps": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    }
+  }
+}
