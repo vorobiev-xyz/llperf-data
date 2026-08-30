@@ -29,6 +29,14 @@
     "start_monotonic_time_ns": 1066752705169540,
     "iterations": 102,
     "tdp": 190,
+    "gpus": [
+      {
+        "vendor_id": "1002",
+        "product_id": "73BF",
+        "subsystem_vendor_id": "1462",
+        "subsystem_product_id": "3961"
+      }
+    ],
     "avg_prompt_tps": 2072.85360363036,
     "p50_prompt_tps": 2268.434377989839,
     "avg_response_tps": 17.038907949637554,
