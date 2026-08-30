@@ -9,7 +9,7 @@
     "parallel_size": 2,
     "prompt_file": "prompt.txt",
     "raw_responses_dir": "./responses",
-    "output": "results-102-100W-n2.json"
+    "output": "results-102-100W-n2-20260811_145226_550770.json"
   },
   "model": {
     "name": "llama3.1:latest",
