@@ -14,7 +14,7 @@
       8
     ],
     "prompt_file": "prompt.txt",
-    "output": "result.json"
+    "output": "results-102-245W-n8-20260902_135904_702184.json"
   },
   "model": {
     "name": "llama3.1:8b-instruct-q8_0",
@@ -28,12 +28,19 @@
     "start_wall_time_ns": 1788357544702184383,
     "start_monotonic_time_ns": 1634068293075703,
     "iterations": 102,
+    "tdp": 245,
+    "gpus": [
+      {
+        "vendor_id": "1002",
+        "product_id": "73BF",
+        "subsystem_vendor_id": "1462",
+        "subsystem_product_id": "3961"
+      }
+    ],
     "avg_prompt_tps": 2183.637004432587,
     "p50_prompt_tps": 2236.3256975375157,
-    "trimmed_avg_prompt_tps": 2192.668723131152,
     "avg_response_tps": 16.842346005157577,
-    "p50_response_tps": 17.111886626264827,
-    "trimmed_avg_response_tps": 16.82221828059284
+    "p50_response_tps": 17.111886626264827
   },
   "metrics": [
     {
