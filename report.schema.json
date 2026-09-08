@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/vorobev-ds/llperf-data/report.schema.json",
+  "$id": "https://github.com/vorobiev-xyz/llperf-data/report.schema.json",
   "title": "llperf-data benchmark report",
   "description": "LLM inference load-test report (ollama): run config, model info, aggregate summary and per-request metrics.",
   "type": "object",
