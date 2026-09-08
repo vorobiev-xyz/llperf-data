@@ -1,0 +1,506 @@
+{
+  "gpu": {
+    "driver": "amdgpu",
+    "vendor_id": "1002",
+    "product_id": "73BF",
+    "subsystem_vendor_id": "1EAE",
+    "subsystem_product_id": "6705"
+  },
+  "tdp_modes": [
+    {
+      "tdp": 249,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 90,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 95,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 100,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 105,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 110,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 115,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 120,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 125,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 130,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 135,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 140,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 145,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 150,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 155,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 160,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 165,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 170,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 175,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 180,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 185,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 190,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 195,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 200,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 205,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 210,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 215,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 220,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 225,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 230,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 235,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 240,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    },
+    {
+      "tdp": 245,
+      "modes": {
+        "system_clock": [
+          "500Mhz",
+          "2475Mhz"
+        ],
+        "memory_clock": [
+          "96Mhz",
+          "456Mhz",
+          "673Mhz",
+          "1000Mhz"
+        ]
+      }
+    }
+  ]
+}
