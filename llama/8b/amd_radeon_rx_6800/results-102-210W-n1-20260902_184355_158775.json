@@ -46,7 +46,6 @@
     {
       "request_start_time_ns": 1676622896791371,
       "request_end_time_ns": 1676850040268009,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 49503000,
       "response_length": 10000,
@@ -57,7 +56,6 @@
     {
       "request_start_time_ns": 1676850041060914,
       "request_end_time_ns": 1677077204078190,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 26787000,
       "response_length": 10000,
@@ -68,7 +66,6 @@
     {
       "request_start_time_ns": 1677077204596210,
       "request_end_time_ns": 1677304296233083,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 30330000,
       "response_length": 10000,
@@ -79,7 +76,6 @@
     {
       "request_start_time_ns": 1677304297102983,
       "request_end_time_ns": 1677530167311000,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 35285000,
       "response_length": 10000,
@@ -90,7 +86,6 @@
     {
       "request_start_time_ns": 1677530167861346,
       "request_end_time_ns": 1677755899380954,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 35144000,
       "response_length": 10000,
@@ -101,7 +96,6 @@
     {
       "request_start_time_ns": 1677755899792266,
       "request_end_time_ns": 1677981874368763,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 35326000,
       "response_length": 10000,
@@ -112,7 +106,6 @@
     {
       "request_start_time_ns": 1677981874958769,
       "request_end_time_ns": 1678207626863231,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 31804000,
       "response_length": 10000,
@@ -123,7 +116,6 @@
     {
       "request_start_time_ns": 1678207627646415,
       "request_end_time_ns": 1678433464563250,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142025000,
       "response_length": 10000,
@@ -134,7 +126,6 @@
     {
       "request_start_time_ns": 1678433464992588,
       "request_end_time_ns": 1678659998552590,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 135907000,
       "response_length": 10000,
@@ -145,7 +136,6 @@
     {
       "request_start_time_ns": 1678659998930531,
       "request_end_time_ns": 1678885942662270,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142352000,
       "response_length": 10000,
@@ -156,7 +146,6 @@
     {
       "request_start_time_ns": 1678885943122655,
       "request_end_time_ns": 1679111911660222,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142725000,
       "response_length": 10000,
@@ -167,7 +156,6 @@
     {
       "request_start_time_ns": 1679111912480257,
       "request_end_time_ns": 1679337569074311,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142180000,
       "response_length": 10000,
@@ -178,7 +166,6 @@
     {
       "request_start_time_ns": 1679337569489095,
       "request_end_time_ns": 1679563487464331,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143200000,
       "response_length": 10000,
@@ -189,7 +176,6 @@
     {
       "request_start_time_ns": 1679563488212973,
       "request_end_time_ns": 1679789302837875,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143002000,
       "response_length": 10000,
@@ -200,7 +186,6 @@
     {
       "request_start_time_ns": 1679789303244893,
       "request_end_time_ns": 1680014918809540,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143385000,
       "response_length": 10000,
@@ -211,7 +196,6 @@
     {
       "request_start_time_ns": 1680014919222883,
       "request_end_time_ns": 1680240583237987,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142824000,
       "response_length": 10000,
@@ -222,7 +206,6 @@
     {
       "request_start_time_ns": 1680240583722081,
       "request_end_time_ns": 1680466122222486,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142565000,
       "response_length": 10000,
@@ -233,7 +216,6 @@
     {
       "request_start_time_ns": 1680466122735454,
       "request_end_time_ns": 1680691805245013,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142820000,
       "response_length": 10000,
@@ -244,7 +226,6 @@
     {
       "request_start_time_ns": 1680691805778710,
       "request_end_time_ns": 1680917593122542,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143387000,
       "response_length": 10000,
@@ -255,7 +236,6 @@
     {
       "request_start_time_ns": 1680917593876992,
       "request_end_time_ns": 1681143226421473,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141150000,
       "response_length": 10000,
@@ -266,7 +246,6 @@
     {
       "request_start_time_ns": 1681143226894489,
       "request_end_time_ns": 1681368614594351,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142670000,
       "response_length": 10000,
@@ -277,7 +256,6 @@
     {
       "request_start_time_ns": 1681368615409216,
       "request_end_time_ns": 1681594354379857,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142610000,
       "response_length": 10000,
@@ -288,7 +266,6 @@
     {
       "request_start_time_ns": 1681594354782688,
       "request_end_time_ns": 1681819749918050,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143096000,
       "response_length": 10000,
@@ -299,7 +276,6 @@
     {
       "request_start_time_ns": 1681819750674543,
       "request_end_time_ns": 1682045373018407,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143310000,
       "response_length": 10000,
@@ -310,7 +286,6 @@
     {
       "request_start_time_ns": 1682045373398810,
       "request_end_time_ns": 1682271218020778,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142102000,
       "response_length": 10000,
@@ -321,7 +296,6 @@
     {
       "request_start_time_ns": 1682271218462651,
       "request_end_time_ns": 1682497020535707,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142041000,
       "response_length": 10000,
@@ -332,7 +306,6 @@
     {
       "request_start_time_ns": 1682497020898776,
       "request_end_time_ns": 1682722891849905,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142167000,
       "response_length": 10000,
@@ -343,7 +316,6 @@
     {
       "request_start_time_ns": 1682722892635764,
       "request_end_time_ns": 1682948522371866,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142074000,
       "response_length": 10000,
@@ -354,7 +326,6 @@
     {
       "request_start_time_ns": 1682948523165603,
       "request_end_time_ns": 1683174352388481,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142501000,
       "response_length": 10000,
@@ -365,7 +336,6 @@
     {
       "request_start_time_ns": 1683174352786987,
       "request_end_time_ns": 1683400377527847,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141656000,
       "response_length": 10000,
@@ -376,7 +346,6 @@
     {
       "request_start_time_ns": 1683400378036296,
       "request_end_time_ns": 1683626353267349,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142301000,
       "response_length": 10000,
@@ -387,7 +356,6 @@
     {
       "request_start_time_ns": 1683626354062931,
       "request_end_time_ns": 1683852023069578,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141592000,
       "response_length": 10000,
@@ -398,7 +366,6 @@
     {
       "request_start_time_ns": 1683852023457355,
       "request_end_time_ns": 1684078017937041,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142651000,
       "response_length": 10000,
@@ -409,7 +376,6 @@
     {
       "request_start_time_ns": 1684078018551915,
       "request_end_time_ns": 1684303829632994,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143300000,
       "response_length": 10000,
@@ -420,7 +386,6 @@
     {
       "request_start_time_ns": 1684303830430713,
       "request_end_time_ns": 1684529641854372,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142268000,
       "response_length": 10000,
@@ -431,7 +396,6 @@
     {
       "request_start_time_ns": 1684529642377325,
       "request_end_time_ns": 1684756072685720,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142624000,
       "response_length": 10000,
@@ -442,7 +406,6 @@
     {
       "request_start_time_ns": 1684756073358040,
       "request_end_time_ns": 1684982232936113,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142580000,
       "response_length": 10000,
@@ -453,7 +416,6 @@
     {
       "request_start_time_ns": 1684982233329206,
       "request_end_time_ns": 1685207926513797,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142795000,
       "response_length": 10000,
@@ -464,7 +426,6 @@
     {
       "request_start_time_ns": 1685207926914264,
       "request_end_time_ns": 1685433853295819,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 140222000,
       "response_length": 10000,
@@ -475,7 +436,6 @@
     {
       "request_start_time_ns": 1685433854092183,
       "request_end_time_ns": 1685659863567285,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142150000,
       "response_length": 10000,
@@ -486,7 +446,6 @@
     {
       "request_start_time_ns": 1685659864438365,
       "request_end_time_ns": 1685886408486076,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142110000,
       "response_length": 10000,
@@ -497,7 +456,6 @@
     {
       "request_start_time_ns": 1685886408957362,
       "request_end_time_ns": 1686112947495855,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142763000,
       "response_length": 10000,
@@ -508,7 +466,6 @@
     {
       "request_start_time_ns": 1686112947919420,
       "request_end_time_ns": 1686339833142145,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142516000,
       "response_length": 10000,
@@ -519,7 +476,6 @@
     {
       "request_start_time_ns": 1686339833589770,
       "request_end_time_ns": 1686566252867650,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141491000,
       "response_length": 10000,
@@ -530,7 +486,6 @@
     {
       "request_start_time_ns": 1686566253434079,
       "request_end_time_ns": 1686793049081309,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142943000,
       "response_length": 10000,
@@ -541,7 +496,6 @@
     {
       "request_start_time_ns": 1686793049845259,
       "request_end_time_ns": 1687019901620026,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142630000,
       "response_length": 10000,
@@ -552,7 +506,6 @@
     {
       "request_start_time_ns": 1687019902064994,
       "request_end_time_ns": 1687246107952941,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142623000,
       "response_length": 10000,
@@ -563,7 +516,6 @@
     {
       "request_start_time_ns": 1687246108852304,
       "request_end_time_ns": 1687472309159013,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 138756000,
       "response_length": 10000,
@@ -574,7 +526,6 @@
     {
       "request_start_time_ns": 1687472309882394,
       "request_end_time_ns": 1687698752858951,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142423000,
       "response_length": 10000,
@@ -585,7 +536,6 @@
     {
       "request_start_time_ns": 1687698753730908,
       "request_end_time_ns": 1687925090979682,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142003000,
       "response_length": 10000,
@@ -596,7 +546,6 @@
     {
       "request_start_time_ns": 1687925091764263,
       "request_end_time_ns": 1688151574173286,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141867000,
       "response_length": 10000,
@@ -607,7 +556,6 @@
     {
       "request_start_time_ns": 1688151574595720,
       "request_end_time_ns": 1688377817280421,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143245000,
       "response_length": 10000,
@@ -618,7 +566,6 @@
     {
       "request_start_time_ns": 1688377817686773,
       "request_end_time_ns": 1688604109409192,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141421000,
       "response_length": 10000,
@@ -629,7 +576,6 @@
     {
       "request_start_time_ns": 1688604110192674,
       "request_end_time_ns": 1688830535482924,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141580000,
       "response_length": 10000,
@@ -640,7 +586,6 @@
     {
       "request_start_time_ns": 1688830536093842,
       "request_end_time_ns": 1689057039403048,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 140738000,
       "response_length": 10000,
@@ -651,7 +596,6 @@
     {
       "request_start_time_ns": 1689057040176983,
       "request_end_time_ns": 1689283423522089,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142461000,
       "response_length": 10000,
@@ -662,7 +606,6 @@
     {
       "request_start_time_ns": 1689283424048801,
       "request_end_time_ns": 1689510315325592,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142094000,
       "response_length": 10000,
@@ -673,7 +616,6 @@
     {
       "request_start_time_ns": 1689510316251501,
       "request_end_time_ns": 1689736650632165,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 139388000,
       "response_length": 10000,
@@ -684,7 +626,6 @@
     {
       "request_start_time_ns": 1689736651447168,
       "request_end_time_ns": 1689962979413557,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142511000,
       "response_length": 10000,
@@ -695,7 +636,6 @@
     {
       "request_start_time_ns": 1689962980031093,
       "request_end_time_ns": 1690188990884118,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142529000,
       "response_length": 10000,
@@ -706,7 +646,6 @@
     {
       "request_start_time_ns": 1690188991302249,
       "request_end_time_ns": 1690415063872578,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 140049000,
       "response_length": 10000,
@@ -717,7 +656,6 @@
     {
       "request_start_time_ns": 1690415064349173,
       "request_end_time_ns": 1690641259811475,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141952000,
       "response_length": 10000,
@@ -728,7 +666,6 @@
     {
       "request_start_time_ns": 1690641260304445,
       "request_end_time_ns": 1690867407157703,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 138322000,
       "response_length": 10000,
@@ -739,7 +676,6 @@
     {
       "request_start_time_ns": 1690867407920025,
       "request_end_time_ns": 1691093656710383,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142818000,
       "response_length": 10000,
@@ -750,7 +686,6 @@
     {
       "request_start_time_ns": 1691093657562926,
       "request_end_time_ns": 1691319719709859,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142859000,
       "response_length": 10000,
@@ -761,7 +696,6 @@
     {
       "request_start_time_ns": 1691319720559059,
       "request_end_time_ns": 1691546199917081,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142309000,
       "response_length": 10000,
@@ -772,7 +706,6 @@
     {
       "request_start_time_ns": 1691546200695708,
       "request_end_time_ns": 1691772427958873,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142588000,
       "response_length": 10000,
@@ -783,7 +716,6 @@
     {
       "request_start_time_ns": 1691772428583806,
       "request_end_time_ns": 1691998772319620,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142712000,
       "response_length": 10000,
@@ -794,7 +726,6 @@
     {
       "request_start_time_ns": 1691998772728969,
       "request_end_time_ns": 1692224973896807,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142610000,
       "response_length": 10000,
@@ -805,7 +736,6 @@
     {
       "request_start_time_ns": 1692224974730486,
       "request_end_time_ns": 1692450932891915,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142657000,
       "response_length": 10000,
@@ -816,7 +746,6 @@
     {
       "request_start_time_ns": 1692450933251559,
       "request_end_time_ns": 1692677464487190,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141362000,
       "response_length": 10000,
@@ -827,7 +756,6 @@
     {
       "request_start_time_ns": 1692677465204430,
       "request_end_time_ns": 1692904021837911,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142249000,
       "response_length": 10000,
@@ -838,7 +766,6 @@
     {
       "request_start_time_ns": 1692904022277267,
       "request_end_time_ns": 1693130194089055,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 138499000,
       "response_length": 10000,
@@ -849,7 +776,6 @@
     {
       "request_start_time_ns": 1693130194836522,
       "request_end_time_ns": 1693356697752537,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142249000,
       "response_length": 10000,
@@ -860,7 +786,6 @@
     {
       "request_start_time_ns": 1693356698553769,
       "request_end_time_ns": 1693582913796846,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142824000,
       "response_length": 10000,
@@ -871,7 +796,6 @@
     {
       "request_start_time_ns": 1693582914288406,
       "request_end_time_ns": 1693809370466728,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142709000,
       "response_length": 10000,
@@ -882,7 +806,6 @@
     {
       "request_start_time_ns": 1693809371141338,
       "request_end_time_ns": 1694035550096344,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141295000,
       "response_length": 10000,
@@ -893,7 +816,6 @@
     {
       "request_start_time_ns": 1694035550566413,
       "request_end_time_ns": 1694261728327275,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142606000,
       "response_length": 10000,
@@ -904,7 +826,6 @@
     {
       "request_start_time_ns": 1694261729109838,
       "request_end_time_ns": 1694488470990804,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141905000,
       "response_length": 10000,
@@ -915,7 +836,6 @@
     {
       "request_start_time_ns": 1694488471388598,
       "request_end_time_ns": 1694715008927294,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142254000,
       "response_length": 10000,
@@ -926,7 +846,6 @@
     {
       "request_start_time_ns": 1694715009310748,
       "request_end_time_ns": 1694941787758184,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142535000,
       "response_length": 10000,
@@ -937,7 +856,6 @@
     {
       "request_start_time_ns": 1694941788674566,
       "request_end_time_ns": 1695167935236247,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142979000,
       "response_length": 10000,
@@ -948,7 +866,6 @@
     {
       "request_start_time_ns": 1695167935666906,
       "request_end_time_ns": 1695394058295463,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142480000,
       "response_length": 10000,
@@ -959,7 +876,6 @@
     {
       "request_start_time_ns": 1695394058694228,
       "request_end_time_ns": 1695620063363564,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142454000,
       "response_length": 10000,
@@ -970,7 +886,6 @@
     {
       "request_start_time_ns": 1695620064155826,
       "request_end_time_ns": 1695846292749783,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 139106000,
       "response_length": 10000,
@@ -981,7 +896,6 @@
     {
       "request_start_time_ns": 1695846293505909,
       "request_end_time_ns": 1696072726716970,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142039000,
       "response_length": 10000,
@@ -992,7 +906,6 @@
     {
       "request_start_time_ns": 1696072727525632,
       "request_end_time_ns": 1696299158046104,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142284000,
       "response_length": 10000,
@@ -1003,7 +916,6 @@
     {
       "request_start_time_ns": 1696299158391823,
       "request_end_time_ns": 1696525591572978,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142270000,
       "response_length": 10000,
@@ -1014,7 +926,6 @@
     {
       "request_start_time_ns": 1696525592385466,
       "request_end_time_ns": 1696751759673896,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141448000,
       "response_length": 10000,
@@ -1025,7 +936,6 @@
     {
       "request_start_time_ns": 1696751760545012,
       "request_end_time_ns": 1696977985739497,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141942000,
       "response_length": 10000,
@@ -1036,7 +946,6 @@
     {
       "request_start_time_ns": 1696977986551848,
       "request_end_time_ns": 1697204076391980,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 140045000,
       "response_length": 10000,
@@ -1047,7 +956,6 @@
     {
       "request_start_time_ns": 1697204076798931,
       "request_end_time_ns": 1697430158414437,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 138352000,
       "response_length": 10000,
@@ -1058,7 +966,6 @@
     {
       "request_start_time_ns": 1697430158869642,
       "request_end_time_ns": 1697656272310522,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141909000,
       "response_length": 10000,
@@ -1069,7 +976,6 @@
     {
       "request_start_time_ns": 1697656272772598,
       "request_end_time_ns": 1697882507983979,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 143102000,
       "response_length": 10000,
@@ -1080,7 +986,6 @@
     {
       "request_start_time_ns": 1697882508810577,
       "request_end_time_ns": 1698108594419618,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 140119000,
       "response_length": 10000,
@@ -1091,7 +996,6 @@
     {
       "request_start_time_ns": 1698108595168416,
       "request_end_time_ns": 1698335093792693,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142684000,
       "response_length": 10000,
@@ -1102,7 +1006,6 @@
     {
       "request_start_time_ns": 1698335094392076,
       "request_end_time_ns": 1698561473472522,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 138996000,
       "response_length": 10000,
@@ -1113,7 +1016,6 @@
     {
       "request_start_time_ns": 1698561473932227,
       "request_end_time_ns": 1698787683248353,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 141318000,
       "response_length": 10000,
@@ -1124,7 +1026,6 @@
     {
       "request_start_time_ns": 1698787683649655,
       "request_end_time_ns": 1699013973634651,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142899000,
       "response_length": 10000,
@@ -1135,7 +1036,6 @@
     {
       "request_start_time_ns": 1699013974042601,
       "request_end_time_ns": 1699240199536843,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142127000,
       "response_length": 10000,
@@ -1146,7 +1046,6 @@
     {
       "request_start_time_ns": 1699240199961703,
       "request_end_time_ns": 1699466520560353,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142289000,
       "response_length": 10000,
@@ -1157,7 +1056,6 @@
     {
       "request_start_time_ns": 1699466521340139,
       "request_end_time_ns": 1699692733982321,
-      "request_ttft_ns": null,
       "prompt_length": 151,
       "prompt_processing_time_ns": 142739000,
       "response_length": 10000,

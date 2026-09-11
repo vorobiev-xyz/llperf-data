@@ -40,8 +40,19 @@
         "iterations",
         "stream",
         "parallel_size",
-        "prompt_file",
         "output"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "prompt"
+          ]
+        },
+        {
+          "required": [
+            "prompt_file"
+          ]
+        }
       ],
       "additionalProperties": false,
       "properties": {
@@ -80,6 +91,11 @@
             "minimum": 1
           }
         },
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Inline prompt text passed via --prompt"
+        },
         "prompt_file": {
           "type": "string"
         },
@@ -114,13 +130,14 @@
           "type": "string"
         },
         "format": {
-          "enum": [
-            "gguf"
-          ]
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Format name in lowercase (ollama currently reports gguf)"
         },
         "parameter_size": {
           "type": "string",
-          "pattern": "^[0-9.]+B$"
+          "pattern": "^[0-9]+(\\.[0-9]+)?[KMBT]$",
+          "description": "Model size: a number with K, M, B or T suffix"
         },
         "quantization_level": {
           "type": "string",
@@ -131,9 +148,13 @@
     "summary": {
       "type": "object",
       "required": [
+        "start_wall_time_ns",
+        "start_monotonic_time_ns",
         "iterations",
         "avg_prompt_tps",
-        "avg_response_tps"
+        "p50_prompt_tps",
+        "avg_response_tps",
+        "p50_response_tps"
       ],
       "additionalProperties": false,
       "properties": {
@@ -145,23 +166,22 @@
         },
         "iterations": {
           "type": "integer",
-          "minimum": 0
+          "minimum": 1,
+          "description": "Actual number of requests executed in the series (>=1, report requires non-empty metrics); requested value is in config.iterations"
         },
         "tdp": {
-          "description": "Power limit (watts) applied for this run",
+          "description": "Power limit (watts) applied for this run; must be positive",
           "type": [
-            "integer",
+            "number",
             "null"
           ],
-          "minimum": 50,
-          "maximum": 400
+          "exclusiveMinimum": 0
         },
         "gpus": {
           "type": [
             "array",
             "null"
           ],
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/gpuId"
           }
@@ -185,7 +205,6 @@
       "required": [
         "request_start_time_ns",
         "request_end_time_ns",
-        "request_ttft_ns",
         "prompt_length",
         "prompt_processing_time_ns",
         "response_length",
@@ -203,11 +222,8 @@
           "$ref": "#/$defs/timestampNs"
         },
         "request_ttft_ns": {
-          "description": "Only populated when stream=true",
-          "type": [
-            "integer",
-            "null"
-          ],
+          "description": "Monotonic timestamp of the first byte of the response; present only when measurable (ollama: stream mode), always integer",
+          "type": "integer",
           "minimum": 0
         },
         "prompt_length": {
@@ -250,10 +266,6 @@
     },
     "gpuId": {
       "type": "object",
-      "required": [
-        "vendor_id",
-        "product_id"
-      ],
       "additionalProperties": false,
       "properties": {
         "vendor_id": {
