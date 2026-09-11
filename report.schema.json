@@ -35,7 +35,6 @@
       "required": [
         "provider",
         "model",
-        "base_url",
         "max_tokens",
         "iterations",
         "stream",
@@ -115,7 +114,8 @@
         "path",
         "format",
         "parameter_size",
-        "quantization_level"
+        "quantization_level",
+        "provider_name"
       ],
       "additionalProperties": false,
       "properties": {
@@ -142,6 +142,16 @@
         "quantization_level": {
           "type": "string",
           "pattern": "^[A-Za-z0-9_]+$"
+        },
+        "provider_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Provider name"
+        },
+        "provider_version": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Provider version, present only when the provider reports one (ollama: /api/version)"
         }
       }
     },

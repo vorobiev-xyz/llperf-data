@@ -22,7 +22,9 @@
     "path": "llama3.1:8b-instruct-q8_0",
     "format": "gguf",
     "parameter_size": "8.0B",
-    "quantization_level": "Q8_0"
+    "quantization_level": "Q8_0",
+    "provider_name": "ollama",
+    "provider_version": "0.32.11"
   },
   "summary": {
     "start_wall_time_ns": 1788484641838705608,
