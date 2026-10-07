@@ -1,0 +1,1064 @@
+{
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3.5:9b-q8_0",
+    "base_url": "http://localhost:11434",
+    "max_tokens": 10000,
+    "iterations": 102,
+    "stream": false,
+    "parallel_size": [
+      1
+    ],
+    "prompt_file": "prompt.txt",
+    "output": "result.json"
+  },
+  "model": {
+    "name": "qwen3.5:9b-q8_0",
+    "family": "qwen35",
+    "path": "qwen3.5:9b-q8_0",
+    "format": "gguf",
+    "parameter_size": "9.0B",
+    "quantization_level": "Q8_0",
+    "provider_name": "ollama",
+    "provider_version": "0.35.1"
+  },
+  "summary": {
+    "start_wall_time_ns": 1791365747028506000,
+    "start_monotonic_time_ns": 258619259320583,
+    "iterations": 102,
+    "gpus": [
+      {
+        "vendor_id": "106B",
+        "product_id": "0000",
+        "subsystem_vendor_id": "106B",
+        "subsystem_product_id": "4300"
+      }
+    ],
+    "avg_prompt_tps": 3574.762961110592,
+    "p50_prompt_tps": 3601.786486097104,
+    "avg_response_tps": 46.74295102986868,
+    "p50_response_tps": 46.74635844120483
+  },
+  "metrics": [
+    {
+      "request_start_time_ns": 258619259364958,
+      "request_end_time_ns": 258834646928291,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 232821000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214083430000,
+      "load_model_time_ns": 1064996375,
+      "provider_total_time_ns": 215359715500
+    },
+    {
+      "request_start_time_ns": 258834647573250,
+      "request_end_time_ns": 259048626628833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 40640000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213884806000,
+      "load_model_time_ns": 2813000,
+      "provider_total_time_ns": 213949640459
+    },
+    {
+      "request_start_time_ns": 259048627300416,
+      "request_end_time_ns": 259262671654125,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41184000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213971236000,
+      "load_model_time_ns": 2525792,
+      "provider_total_time_ns": 214016766042
+    },
+    {
+      "request_start_time_ns": 259262671992750,
+      "request_end_time_ns": 259476749145833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41320000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214004058000,
+      "load_model_time_ns": 2811000,
+      "provider_total_time_ns": 214049957791
+    },
+    {
+      "request_start_time_ns": 259476749798791,
+      "request_end_time_ns": 259690897671541,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41129000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214074401000,
+      "load_model_time_ns": 2824792,
+      "provider_total_time_ns": 214119892542
+    },
+    {
+      "request_start_time_ns": 259690898297458,
+      "request_end_time_ns": 259905013475541,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41530000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214038921000,
+      "load_model_time_ns": 3105167,
+      "provider_total_time_ns": 214085454667
+    },
+    {
+      "request_start_time_ns": 259905014125750,
+      "request_end_time_ns": 260118987711833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41120000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213908087000,
+      "load_model_time_ns": 3182125,
+      "provider_total_time_ns": 213946127000
+    },
+    {
+      "request_start_time_ns": 260118988349791,
+      "request_end_time_ns": 260333003327625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41275000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213939801000,
+      "load_model_time_ns": 3166834,
+      "provider_total_time_ns": 213985638459
+    },
+    {
+      "request_start_time_ns": 260333003970041,
+      "request_end_time_ns": 260546994034708,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41354000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213916909000,
+      "load_model_time_ns": 2993459,
+      "provider_total_time_ns": 213962592459
+    },
+    {
+      "request_start_time_ns": 260546994683708,
+      "request_end_time_ns": 260761043520708,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41351000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213972748000,
+      "load_model_time_ns": 2783917,
+      "provider_total_time_ns": 214018305417
+    },
+    {
+      "request_start_time_ns": 260761044174166,
+      "request_end_time_ns": 260975044892833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42084000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213925511000,
+      "load_model_time_ns": 2641459,
+      "provider_total_time_ns": 213971816209
+    },
+    {
+      "request_start_time_ns": 260975045530208,
+      "request_end_time_ns": 261189004022250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41809000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213882136000,
+      "load_model_time_ns": 3083125,
+      "provider_total_time_ns": 213928332750
+    },
+    {
+      "request_start_time_ns": 261189004665791,
+      "request_end_time_ns": 261402953687166,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41868000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213842287000,
+      "load_model_time_ns": 2727417,
+      "provider_total_time_ns": 213919152292
+    },
+    {
+      "request_start_time_ns": 261402954344041,
+      "request_end_time_ns": 261616912097125,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41300000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213883341000,
+      "load_model_time_ns": 2662875,
+      "provider_total_time_ns": 213931442750
+    },
+    {
+      "request_start_time_ns": 261616912699541,
+      "request_end_time_ns": 261830902442083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41365000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213914960000,
+      "load_model_time_ns": 2639625,
+      "provider_total_time_ns": 213961912459
+    },
+    {
+      "request_start_time_ns": 261830903089000,
+      "request_end_time_ns": 262044960060458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41496000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213980388000,
+      "load_model_time_ns": 2706500,
+      "provider_total_time_ns": 214027818167
+    },
+    {
+      "request_start_time_ns": 262044960697333,
+      "request_end_time_ns": 262259007698416,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41249000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213970001000,
+      "load_model_time_ns": 2625500,
+      "provider_total_time_ns": 214016938458
+    },
+    {
+      "request_start_time_ns": 262259008331291,
+      "request_end_time_ns": 262472955516583,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41826000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213885851000,
+      "load_model_time_ns": 2688958,
+      "provider_total_time_ns": 213917771375
+    },
+    {
+      "request_start_time_ns": 262472956191791,
+      "request_end_time_ns": 262686989050833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41838000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213962773000,
+      "load_model_time_ns": 3077000,
+      "provider_total_time_ns": 214003090458
+    },
+    {
+      "request_start_time_ns": 262686989699041,
+      "request_end_time_ns": 262900949035250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41951000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213882619000,
+      "load_model_time_ns": 2993084,
+      "provider_total_time_ns": 213929650917
+    },
+    {
+      "request_start_time_ns": 262900949679500,
+      "request_end_time_ns": 263114922430916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41642000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213898027000,
+      "load_model_time_ns": 2792458,
+      "provider_total_time_ns": 213944448083
+    },
+    {
+      "request_start_time_ns": 263114923064333,
+      "request_end_time_ns": 263328971241291,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41650000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213973379000,
+      "load_model_time_ns": 2639959,
+      "provider_total_time_ns": 214019517459
+    },
+    {
+      "request_start_time_ns": 263328971880041,
+      "request_end_time_ns": 263543037355250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41668000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213989603000,
+      "load_model_time_ns": 2969292,
+      "provider_total_time_ns": 214036088125
+    },
+    {
+      "request_start_time_ns": 263543038009416,
+      "request_end_time_ns": 263757026732625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41811000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213913053000,
+      "load_model_time_ns": 2786125,
+      "provider_total_time_ns": 213959578375
+    },
+    {
+      "request_start_time_ns": 263757027392791,
+      "request_end_time_ns": 263971027664208,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41452000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213917339000,
+      "load_model_time_ns": 2622625,
+      "provider_total_time_ns": 213971893667
+    },
+    {
+      "request_start_time_ns": 263971028305166,
+      "request_end_time_ns": 264185076729166,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41493000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213971399000,
+      "load_model_time_ns": 2652291,
+      "provider_total_time_ns": 214017956958
+    },
+    {
+      "request_start_time_ns": 264185077372791,
+      "request_end_time_ns": 264399043075291,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41723000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213889683000,
+      "load_model_time_ns": 2752375,
+      "provider_total_time_ns": 213936455000
+    },
+    {
+      "request_start_time_ns": 264399043729375,
+      "request_end_time_ns": 264613122121666,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41751000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214002709000,
+      "load_model_time_ns": 2654125,
+      "provider_total_time_ns": 214049280958
+    },
+    {
+      "request_start_time_ns": 264613122664833,
+      "request_end_time_ns": 264827199533791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41513000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214000891000,
+      "load_model_time_ns": 2543458,
+      "provider_total_time_ns": 214047437125
+    },
+    {
+      "request_start_time_ns": 264827200185333,
+      "request_end_time_ns": 265041155721833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41941000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213877842000,
+      "load_model_time_ns": 2762042,
+      "provider_total_time_ns": 213925004917
+    },
+    {
+      "request_start_time_ns": 265041156343166,
+      "request_end_time_ns": 265255143509625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41856000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213923640000,
+      "load_model_time_ns": 2586625,
+      "provider_total_time_ns": 213957847583
+    },
+    {
+      "request_start_time_ns": 265255144149125,
+      "request_end_time_ns": 265469196311458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41872000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213978134000,
+      "load_model_time_ns": 2596500,
+      "provider_total_time_ns": 214024137458
+    },
+    {
+      "request_start_time_ns": 265469196954250,
+      "request_end_time_ns": 265683310729458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41386000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214040147000,
+      "load_model_time_ns": 2769334,
+      "provider_total_time_ns": 214086163084
+    },
+    {
+      "request_start_time_ns": 265683311361416,
+      "request_end_time_ns": 265897440810791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41660000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214053614000,
+      "load_model_time_ns": 2986500,
+      "provider_total_time_ns": 214099806084
+    },
+    {
+      "request_start_time_ns": 265897441468458,
+      "request_end_time_ns": 266111399319916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41659000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213881844000,
+      "load_model_time_ns": 2764417,
+      "provider_total_time_ns": 213927895667
+    },
+    {
+      "request_start_time_ns": 266111399957083,
+      "request_end_time_ns": 266325405822583,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42005000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213928651000,
+      "load_model_time_ns": 3297708,
+      "provider_total_time_ns": 213975772625
+    },
+    {
+      "request_start_time_ns": 266325406470500,
+      "request_end_time_ns": 266539384677583,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41857000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213902294000,
+      "load_model_time_ns": 3109417,
+      "provider_total_time_ns": 213948972750
+    },
+    {
+      "request_start_time_ns": 266539385307791,
+      "request_end_time_ns": 266753360969958,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41637000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213900789000,
+      "load_model_time_ns": 3961709,
+      "provider_total_time_ns": 213945763459
+    },
+    {
+      "request_start_time_ns": 266753361618500,
+      "request_end_time_ns": 266967346412958,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41775000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213908623000,
+      "load_model_time_ns": 2647583,
+      "provider_total_time_ns": 213954594958
+    },
+    {
+      "request_start_time_ns": 266967347044666,
+      "request_end_time_ns": 267181331567916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42043000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213909638000,
+      "load_model_time_ns": 2634417,
+      "provider_total_time_ns": 213955889417
+    },
+    {
+      "request_start_time_ns": 267181332207541,
+      "request_end_time_ns": 267395358307166,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41565000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213951130000,
+      "load_model_time_ns": 2791125,
+      "provider_total_time_ns": 213997009916
+    },
+    {
+      "request_start_time_ns": 267395358965083,
+      "request_end_time_ns": 267609455540583,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41404000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214022142000,
+      "load_model_time_ns": 2560833,
+      "provider_total_time_ns": 214067702000
+    },
+    {
+      "request_start_time_ns": 267609456178708,
+      "request_end_time_ns": 267823562627458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41781000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214034007000,
+      "load_model_time_ns": 2632542,
+      "provider_total_time_ns": 214079940625
+    },
+    {
+      "request_start_time_ns": 267823563053833,
+      "request_end_time_ns": 268037693670916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41399000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214055164000,
+      "load_model_time_ns": 2776417,
+      "provider_total_time_ns": 214101845208
+    },
+    {
+      "request_start_time_ns": 268037694316458,
+      "request_end_time_ns": 268251851070666,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41467000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214079630000,
+      "load_model_time_ns": 3090042,
+      "provider_total_time_ns": 214125878959
+    },
+    {
+      "request_start_time_ns": 268251851718916,
+      "request_end_time_ns": 268465816505833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42037000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213887500000,
+      "load_model_time_ns": 3409375,
+      "provider_total_time_ns": 213934687083
+    },
+    {
+      "request_start_time_ns": 268465817159458,
+      "request_end_time_ns": 268679783671833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41883000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213891753000,
+      "load_model_time_ns": 3200042,
+      "provider_total_time_ns": 213938409375
+    },
+    {
+      "request_start_time_ns": 268679784309083,
+      "request_end_time_ns": 268893834183541,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41653000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213974555000,
+      "load_model_time_ns": 3060791,
+      "provider_total_time_ns": 214021057125
+    },
+    {
+      "request_start_time_ns": 268893834938500,
+      "request_end_time_ns": 269107778115041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41517000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213868915000,
+      "load_model_time_ns": 3249500,
+      "provider_total_time_ns": 213915246375
+    },
+    {
+      "request_start_time_ns": 269107778738958,
+      "request_end_time_ns": 269321717709625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41500000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213814952000,
+      "load_model_time_ns": 3083750,
+      "provider_total_time_ns": 213909523583
+    },
+    {
+      "request_start_time_ns": 269321718352541,
+      "request_end_time_ns": 269535811169958,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41640000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214014570000,
+      "load_model_time_ns": 2640875,
+      "provider_total_time_ns": 214062896291
+    },
+    {
+      "request_start_time_ns": 269535811815791,
+      "request_end_time_ns": 269749780727791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41319000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213889453000,
+      "load_model_time_ns": 2741750,
+      "provider_total_time_ns": 213938058583
+    },
+    {
+      "request_start_time_ns": 269749781374833,
+      "request_end_time_ns": 269963730558500,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42089000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213869992000,
+      "load_model_time_ns": 2917000,
+      "provider_total_time_ns": 213919190500
+    },
+    {
+      "request_start_time_ns": 269963731207416,
+      "request_end_time_ns": 270177722948375,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41645000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213913125000,
+      "load_model_time_ns": 3139459,
+      "provider_total_time_ns": 213962126584
+    },
+    {
+      "request_start_time_ns": 270177723599750,
+      "request_end_time_ns": 270391696910375,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41646000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213918190000,
+      "load_model_time_ns": 3195417,
+      "provider_total_time_ns": 213939818583
+    },
+    {
+      "request_start_time_ns": 270391697603875,
+      "request_end_time_ns": 270605673172791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41723000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213901052000,
+      "load_model_time_ns": 3133709,
+      "provider_total_time_ns": 213947818417
+    },
+    {
+      "request_start_time_ns": 270605673806791,
+      "request_end_time_ns": 270819733603083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41624000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213982938000,
+      "load_model_time_ns": 3066041,
+      "provider_total_time_ns": 214030219458
+    },
+    {
+      "request_start_time_ns": 270819734266708,
+      "request_end_time_ns": 271033697041750,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41865000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213884829000,
+      "load_model_time_ns": 3219750,
+      "provider_total_time_ns": 213932649416
+    },
+    {
+      "request_start_time_ns": 271033697678500,
+      "request_end_time_ns": 271247638576041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41191000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213864747000,
+      "load_model_time_ns": 3052375,
+      "provider_total_time_ns": 213911582625
+    },
+    {
+      "request_start_time_ns": 271247639208750,
+      "request_end_time_ns": 271461602018458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41487000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213886602000,
+      "load_model_time_ns": 2998417,
+      "provider_total_time_ns": 213933747667
+    },
+    {
+      "request_start_time_ns": 271461602662416,
+      "request_end_time_ns": 271675588978083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41727000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213878498000,
+      "load_model_time_ns": 2903125,
+      "provider_total_time_ns": 213957072125
+    },
+    {
+      "request_start_time_ns": 271675589612625,
+      "request_end_time_ns": 271889538679208,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41674000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213870995000,
+      "load_model_time_ns": 3049417,
+      "provider_total_time_ns": 213920263250
+    },
+    {
+      "request_start_time_ns": 271889539334333,
+      "request_end_time_ns": 272103555717708,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41757000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213938097000,
+      "load_model_time_ns": 3113250,
+      "provider_total_time_ns": 213987229834
+    },
+    {
+      "request_start_time_ns": 272103556362500,
+      "request_end_time_ns": 272317598849250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41563000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213963140000,
+      "load_model_time_ns": 3167917,
+      "provider_total_time_ns": 214012415042
+    },
+    {
+      "request_start_time_ns": 272317599488041,
+      "request_end_time_ns": 272531579326791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41283000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213903048000,
+      "load_model_time_ns": 3100333,
+      "provider_total_time_ns": 213951621667
+    },
+    {
+      "request_start_time_ns": 272531579964000,
+      "request_end_time_ns": 272745572610500,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41430000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213944223000,
+      "load_model_time_ns": 2752667,
+      "provider_total_time_ns": 213963567875
+    },
+    {
+      "request_start_time_ns": 272745573254458,
+      "request_end_time_ns": 272959644755250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41802000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214004730000,
+      "load_model_time_ns": 2770959,
+      "provider_total_time_ns": 214043121125
+    },
+    {
+      "request_start_time_ns": 272959645401333,
+      "request_end_time_ns": 273173729079166,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41238000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214005711000,
+      "load_model_time_ns": 3008167,
+      "provider_total_time_ns": 214052359792
+    },
+    {
+      "request_start_time_ns": 273173729719375,
+      "request_end_time_ns": 273387681549291,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41870000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213876356000,
+      "load_model_time_ns": 2781750,
+      "provider_total_time_ns": 213923269125
+    },
+    {
+      "request_start_time_ns": 273387682192375,
+      "request_end_time_ns": 273601727346083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41680000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213969225000,
+      "load_model_time_ns": 2596000,
+      "provider_total_time_ns": 214015733291
+    },
+    {
+      "request_start_time_ns": 273601727982250,
+      "request_end_time_ns": 273815693899041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41849000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213890019000,
+      "load_model_time_ns": 2607167,
+      "provider_total_time_ns": 213936926292
+    },
+    {
+      "request_start_time_ns": 273815694542000,
+      "request_end_time_ns": 274029699634416,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42059000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213926913000,
+      "load_model_time_ns": 3044833,
+      "provider_total_time_ns": 213974623125
+    },
+    {
+      "request_start_time_ns": 274029700277125,
+      "request_end_time_ns": 274243700365833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41596000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213910682000,
+      "load_model_time_ns": 3546083,
+      "provider_total_time_ns": 213970198666
+    },
+    {
+      "request_start_time_ns": 274243701014625,
+      "request_end_time_ns": 274457686075625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41945000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213907695000,
+      "load_model_time_ns": 3100791,
+      "provider_total_time_ns": 213955541000
+    },
+    {
+      "request_start_time_ns": 274457686715250,
+      "request_end_time_ns": 274671671811041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41911000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213906766000,
+      "load_model_time_ns": 2778583,
+      "provider_total_time_ns": 213954496791
+    },
+    {
+      "request_start_time_ns": 274671672444500,
+      "request_end_time_ns": 274885651197041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42137000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213902066000,
+      "load_model_time_ns": 3129333,
+      "provider_total_time_ns": 213950265041
+    },
+    {
+      "request_start_time_ns": 274885651843416,
+      "request_end_time_ns": 275099676833416,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41675000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213945558000,
+      "load_model_time_ns": 3149250,
+      "provider_total_time_ns": 213993423583
+    },
+    {
+      "request_start_time_ns": 275099677481666,
+      "request_end_time_ns": 275313668756083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41622000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213914444000,
+      "load_model_time_ns": 3106250,
+      "provider_total_time_ns": 213962059791
+    },
+    {
+      "request_start_time_ns": 275313669427791,
+      "request_end_time_ns": 275527630192333,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41304000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213896927000,
+      "load_model_time_ns": 2544541,
+      "provider_total_time_ns": 213929552125
+    },
+    {
+      "request_start_time_ns": 275527630826666,
+      "request_end_time_ns": 275741642542625,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42082000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213936392000,
+      "load_model_time_ns": 3024291,
+      "provider_total_time_ns": 213982195208
+    },
+    {
+      "request_start_time_ns": 275741643203083,
+      "request_end_time_ns": 275955625537750,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41763000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213907433000,
+      "load_model_time_ns": 2629000,
+      "provider_total_time_ns": 213953828541
+    },
+    {
+      "request_start_time_ns": 275955626155375,
+      "request_end_time_ns": 276169637895083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41629000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213935473000,
+      "load_model_time_ns": 2924666,
+      "provider_total_time_ns": 213982020500
+    },
+    {
+      "request_start_time_ns": 276169638540583,
+      "request_end_time_ns": 276383636017250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41783000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213921199000,
+      "load_model_time_ns": 3442958,
+      "provider_total_time_ns": 213968539958
+    },
+    {
+      "request_start_time_ns": 276383636645791,
+      "request_end_time_ns": 276597609953541,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41620000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213898497000,
+      "load_model_time_ns": 2785958,
+      "provider_total_time_ns": 213944897666
+    },
+    {
+      "request_start_time_ns": 276597610605750,
+      "request_end_time_ns": 276811627744750,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41512000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213951737000,
+      "load_model_time_ns": 3108083,
+      "provider_total_time_ns": 213988174000
+    },
+    {
+      "request_start_time_ns": 276811628398083,
+      "request_end_time_ns": 277025624820333,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41766000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213922726000,
+      "load_model_time_ns": 3027083,
+      "provider_total_time_ns": 213967448625
+    },
+    {
+      "request_start_time_ns": 277025625443125,
+      "request_end_time_ns": 277239637429000,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41767000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213937246000,
+      "load_model_time_ns": 2990541,
+      "provider_total_time_ns": 213983336458
+    },
+    {
+      "request_start_time_ns": 277239638070000,
+      "request_end_time_ns": 277453621499833,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41646000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213907627000,
+      "load_model_time_ns": 3266500,
+      "provider_total_time_ns": 213953915583
+    },
+    {
+      "request_start_time_ns": 277453622169625,
+      "request_end_time_ns": 277667617147416,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41603000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213919614000,
+      "load_model_time_ns": 3179416,
+      "provider_total_time_ns": 213965943375
+    },
+    {
+      "request_start_time_ns": 277667617811458,
+      "request_end_time_ns": 277881600004916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41359000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213907638000,
+      "load_model_time_ns": 2962250,
+      "provider_total_time_ns": 213953323250
+    },
+    {
+      "request_start_time_ns": 277881600655500,
+      "request_end_time_ns": 278095656399041,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41407000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213957143000,
+      "load_model_time_ns": 2624250,
+      "provider_total_time_ns": 214026715667
+    },
+    {
+      "request_start_time_ns": 278095657033125,
+      "request_end_time_ns": 278309639324583,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41908000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213903223000,
+      "load_model_time_ns": 2725041,
+      "provider_total_time_ns": 213952608458
+    },
+    {
+      "request_start_time_ns": 278309639971833,
+      "request_end_time_ns": 278523612059125,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41324000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213896263000,
+      "load_model_time_ns": 2949167,
+      "provider_total_time_ns": 213943242500
+    },
+    {
+      "request_start_time_ns": 278523612699958,
+      "request_end_time_ns": 278737615818458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41776000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213927249000,
+      "load_model_time_ns": 3209833,
+      "provider_total_time_ns": 213974934791
+    },
+    {
+      "request_start_time_ns": 278737616472625,
+      "request_end_time_ns": 278951709826458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41720000,
+      "response_length": 10000,
+      "response_generating_time_ns": 214016333000,
+      "load_model_time_ns": 3101709,
+      "provider_total_time_ns": 214064025459
+    },
+    {
+      "request_start_time_ns": 278951710439666,
+      "request_end_time_ns": 279165701433250,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41109000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213914614000,
+      "load_model_time_ns": 3021166,
+      "provider_total_time_ns": 213961638583
+    },
+    {
+      "request_start_time_ns": 279165702069458,
+      "request_end_time_ns": 279379732667791,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41330000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213953763000,
+      "load_model_time_ns": 2930334,
+      "provider_total_time_ns": 214000836750
+    },
+    {
+      "request_start_time_ns": 279379733321875,
+      "request_end_time_ns": 279593735727916,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41938000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213944215000,
+      "load_model_time_ns": 3111375,
+      "provider_total_time_ns": 213973452458
+    },
+    {
+      "request_start_time_ns": 279593736377250,
+      "request_end_time_ns": 279807715598083,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 42106000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213904525000,
+      "load_model_time_ns": 2641125,
+      "provider_total_time_ns": 213950432750
+    },
+    {
+      "request_start_time_ns": 279807716239375,
+      "request_end_time_ns": 280021777148125,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41595000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213985789000,
+      "load_model_time_ns": 2914208,
+      "provider_total_time_ns": 214031800625
+    },
+    {
+      "request_start_time_ns": 280021777791708,
+      "request_end_time_ns": 280235782913541,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41438000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213930505000,
+      "load_model_time_ns": 2583584,
+      "provider_total_time_ns": 213976148292
+    },
+    {
+      "request_start_time_ns": 280235783570916,
+      "request_end_time_ns": 280449802507458,
+      "prompt_length": 150,
+      "prompt_processing_time_ns": 41278000,
+      "response_length": 10000,
+      "response_generating_time_ns": 213948342000,
+      "load_model_time_ns": 2652541,
+      "provider_total_time_ns": 213993778458
+    }
+  ]
+}
